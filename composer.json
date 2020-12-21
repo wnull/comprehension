@@ -1,0 +1,16 @@
+{
+    "name": "wnull/comprehension",
+    "description": "Shell (REST API branch achievements) for the Warface game",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.4",
+        "ext-json": "*",
+        "bramus/router": "~1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Comprehension\\": "src/Comprehension/"
+        }
+    }
+}
